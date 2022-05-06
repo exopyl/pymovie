@@ -1,7 +1,5 @@
 rich==10.9.0
-matplotlib==3.4.2
-numpy==1.21.1
-opencv-python==4.5.3.56
+matplotlib==3.5.2
+numpy==1.22.3
+opencv-python==4.5.5.64
 Pillow==8.3.1
-pytest==6.2.2
-pytest-cov==2.12.1
