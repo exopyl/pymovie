@@ -1,5 +1,4 @@
 FROM python:3.8
-MAINTAINER exopyl
 LABEL version="0.2"
 
 # Workaround https://unix.stackexchange.com/questions/2544/how-to-work-around-release-file-expired-problem-on-a-local-mirror
@@ -13,4 +12,4 @@ RUN apt-get install ffmpeg libsm6 libxext6  -y
 COPY requirements.txt /
 RUN pip install -r requirements.txt
 
-WORKDIR "/mnt"
+#WORKDIR "/mnt"
